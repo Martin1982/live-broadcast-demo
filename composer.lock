@@ -1062,16 +1062,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v0.3.3-alpha",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "50c7586009b342cc9df6b8baabc42c93698ecf9b"
+                "reference": "87a8fcbebf8a5fc607b460ab7e7144ae9b640606"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/50c7586009b342cc9df6b8baabc42c93698ecf9b",
-                "reference": "50c7586009b342cc9df6b8baabc42c93698ecf9b",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/87a8fcbebf8a5fc607b460ab7e7144ae9b640606",
+                "reference": "87a8fcbebf8a5fc607b460ab7e7144ae9b640606",
                 "shasum": ""
             },
             "require": {
