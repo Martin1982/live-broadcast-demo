@@ -7,6 +7,7 @@ To install;
 
 * Clone this repository
 * Run `composer install`
+* Run the Doctrine schema update `bin/console doctrine:schema:update --force`
 * Run `bin/console server:run`
 
 The admin console will now be reachable at; http://localhost:8000/admin
