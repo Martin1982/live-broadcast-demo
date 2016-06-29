@@ -37,6 +37,8 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    globals:
+        live_broadcast_facebook_app_id: '%live_broadcast_fb_app_id%'
 
 # Doctrine Configuration
 doctrine:
@@ -79,3 +81,8 @@ sonata_block:
             contexts:   [admin]
         sonata.admin.block.search_result:
             contexts:   [admin]
+
+live_broadcast:
+    facebook:
+        application_id: '%live_broadcast_fb_app_id%'
+        application_secret: '%live_broadcast_fb_app_secret%'
