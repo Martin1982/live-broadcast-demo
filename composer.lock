@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "13d4134402c319d3b3f7f019e06070be",
-    "content-hash": "efb7ffb002e6ea820954755c86032c67",
+    "hash": "b103de0fc780125361125e49c2306d9f",
+    "content-hash": "a45ed46394e47b243479024f2aa5bd70",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1104,7 +1104,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -1120,16 +1120,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v0.4.0-alpha",
+            "version": "v0.4.1-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "4f5f6c32440317385406fc5b354002180fa7b620"
+                "reference": "ada5fa92f1b2709a209df7187d9ac611a3df1c0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/4f5f6c32440317385406fc5b354002180fa7b620",
-                "reference": "4f5f6c32440317385406fc5b354002180fa7b620",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/ada5fa92f1b2709a209df7187d9ac611a3df1c0a",
+                "reference": "ada5fa92f1b2709a209df7187d9ac611a3df1c0a",
                 "shasum": ""
             },
             "require": {
@@ -1163,7 +1163,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2016-06-29 09:20:23"
+            "time": "2016-06-29 10:50:10"
         },
         {
             "name": "monolog/monolog",
