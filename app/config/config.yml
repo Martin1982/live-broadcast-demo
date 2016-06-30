@@ -82,6 +82,19 @@ sonata_block:
         sonata.admin.block.search_result:
             contexts:   [admin]
 
+monolog:
+    handlers:
+        console:
+            type: console
+            bubble: false
+            channels: [!livebroadcaster]
+        livebroadcaster:
+            type: rotating_file
+            path: "%kernel.logs_dir%/%kernel.environment%-livebroadcaster.log"
+            max_files: 5
+            channels: [livebroadcaster]
+            level: info
+
 live_broadcast:
     facebook:
         application_id: '%live_broadcast_fb_app_id%'
