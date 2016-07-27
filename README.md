@@ -12,3 +12,5 @@ To install;
 
 The admin console will now be reachable at; http://localhost:8000/admin
 
+To setup Facebook streaming support please check the bundle documentation at;
+[live video broadcast bundle](https://github.com/Martin1982/live-broadcast-bundle/#facebook-live)
