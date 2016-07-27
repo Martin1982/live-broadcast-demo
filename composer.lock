@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25d1dcb4b6741367edc7f8f768d1b7d0",
-    "content-hash": "9ef84eac006b099a77aa75379005a0f3",
+    "hash": "4bc47147dfbefb7c97b24fd44b8ed761",
+    "content-hash": "6acaacd4fe63ef91f42e9f43bcf6c931",
     "packages": [
         {
             "name": "cocur/slugify",
-            "version": "v2.1.1",
+            "version": "v2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cocur/slugify.git",
-                "reference": "eee9879958875921082293dbdbf4866b641864f2"
+                "reference": "13c1d3b2e602822c47a7ac62f9d409e1a2b76113"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cocur/slugify/zipball/eee9879958875921082293dbdbf4866b641864f2",
-                "reference": "eee9879958875921082293dbdbf4866b641864f2",
+                "url": "https://api.github.com/repos/cocur/slugify/zipball/13c1d3b2e602822c47a7ac62f9d409e1a2b76113",
+                "reference": "13c1d3b2e602822c47a7ac62f9d409e1a2b76113",
                 "shasum": ""
             },
             "require": {
@@ -27,6 +27,7 @@
             "require-dev": {
                 "laravel/framework": "~5.1",
                 "latte/latte": "~2.2",
+                "league/container": "^2.2.0",
                 "mikey179/vfsstream": "~1.6",
                 "mockery/mockery": "~0.9",
                 "nette/di": "~2.2",
@@ -68,7 +69,7 @@
                 "slug",
                 "slugify"
             ],
-            "time": "2016-04-08 18:57:21"
+            "time": "2016-07-10 13:06:05"
         },
         {
             "name": "doctrine/annotations",
@@ -1120,16 +1121,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v0.4.4-alpha",
+            "version": "v0.4.5-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "1e14cad170d9adcc3648bf16cf02edab7da1ee04"
+                "reference": "f58ed7ac448e7fa131b719590f6b0201453ff15d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/1e14cad170d9adcc3648bf16cf02edab7da1ee04",
-                "reference": "1e14cad170d9adcc3648bf16cf02edab7da1ee04",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/f58ed7ac448e7fa131b719590f6b0201453ff15d",
+                "reference": "f58ed7ac448e7fa131b719590f6b0201453ff15d",
                 "shasum": ""
             },
             "require": {
@@ -1163,7 +1164,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2016-07-08 14:42:32"
+            "time": "2016-07-11 10:08:50"
         },
         {
             "name": "monolog/monolog",
@@ -1629,16 +1630,16 @@
         },
         {
             "name": "sonata-project/block-bundle",
-            "version": "3.0.1",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataBlockBundle.git",
-                "reference": "7649e8b1b1d3593c882c21ba3659f22c6bcbdb06"
+                "reference": "0a88a3eed7e3b7365d88feaf48b6406e39da7957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/7649e8b1b1d3593c882c21ba3659f22c6bcbdb06",
-                "reference": "7649e8b1b1d3593c882c21ba3659f22c6bcbdb06",
+                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/0a88a3eed7e3b7365d88feaf48b6406e39da7957",
+                "reference": "0a88a3eed7e3b7365d88feaf48b6406e39da7957",
                 "shasum": ""
             },
             "require": {
@@ -1669,6 +1670,9 @@
                 "psr-4": {
                     "Sonata\\BlockBundle\\": ""
                 },
+                "exclude-from-classmap": [
+                    "Tests/"
+                ],
                 "files": [
                     "Resources/stubs/symfony2.php"
                 ]
@@ -1694,7 +1698,7 @@
                 "block",
                 "sonata"
             ],
-            "time": "2016-06-14 12:28:03"
+            "time": "2016-07-12 15:15:47"
         },
         {
             "name": "sonata-project/cache",
