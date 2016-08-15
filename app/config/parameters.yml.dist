@@ -21,3 +21,8 @@ parameters:
     # Facebook live App
     live_broadcast_fb_app_id: ~
     live_broadcast_fb_app_secret: ~
+
+    # Youtube API
+    live_broadcast_yt_client_id: ~
+    live_broadcast_yt_client_secret: ~
+    live_broadcast_yt_redirect_route: admin_martin1982_livebroadcast_channel_basechannel_youtubeoauth
