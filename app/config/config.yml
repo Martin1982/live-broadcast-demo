@@ -81,6 +81,8 @@ sonata_block:
             contexts:   [admin]
         sonata.admin.block.search_result:
             contexts:   [admin]
+        sonata.block.service.youtubeauth:
+            contexts:   [admin]
 
 monolog:
     handlers:
@@ -99,3 +101,7 @@ live_broadcast:
     facebook:
         application_id: '%live_broadcast_fb_app_id%'
         application_secret: '%live_broadcast_fb_app_secret%'
+    youtube:
+        client_id: '%live_broadcast_yt_client_id%'
+        client_secret: '%live_broadcast_yt_client_secret%'
+        redirect_route: '%live_broadcast_yt_redirect_route%'
