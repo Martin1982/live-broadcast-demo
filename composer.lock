@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f953791966e78c3d4f497a4444f699c7",
-    "content-hash": "61164e25223d939deb73ff5e412b6eff",
+    "hash": "318cc8501e8c0a4a816265c53d07e67c",
+    "content-hash": "781083bf7b22b43db425797910956ccd",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1478,16 +1478,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v0.5.0-alpha",
+            "version": "v0.5.4-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "32a0960663c449b4fcbc1e9f30bf540cb588d684"
+                "reference": "202b0291e2018b0c5da908a5feaf16e9569de930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/32a0960663c449b4fcbc1e9f30bf540cb588d684",
-                "reference": "32a0960663c449b4fcbc1e9f30bf540cb588d684",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/202b0291e2018b0c5da908a5feaf16e9569de930",
+                "reference": "202b0291e2018b0c5da908a5feaf16e9569de930",
                 "shasum": ""
             },
             "require": {
@@ -1522,7 +1522,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2016-08-15 11:57:35"
+            "time": "2016-08-16 14:42:46"
         },
         {
             "name": "monolog/monolog",

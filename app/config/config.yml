@@ -37,8 +37,6 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
-    globals:
-        live_broadcast_facebook_app_id: '%live_broadcast_fb_app_id%'
 
 # Doctrine Configuration
 doctrine:
@@ -81,8 +79,6 @@ sonata_block:
             contexts:   [admin]
         sonata.admin.block.search_result:
             contexts:   [admin]
-        sonata.block.service.youtubeauth:
-            contexts:   [admin]
 
 monolog:
     handlers:
@@ -96,12 +92,3 @@ monolog:
             max_files: 5
             channels: [livebroadcaster]
             level: info
-
-live_broadcast:
-    facebook:
-        application_id: '%live_broadcast_fb_app_id%'
-        application_secret: '%live_broadcast_fb_app_secret%'
-    youtube:
-        client_id: '%live_broadcast_yt_client_id%'
-        client_secret: '%live_broadcast_yt_client_secret%'
-        redirect_route: '%live_broadcast_yt_redirect_route%'
