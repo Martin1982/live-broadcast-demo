@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "318cc8501e8c0a4a816265c53d07e67c",
-    "content-hash": "781083bf7b22b43db425797910956ccd",
+    "hash": "77d5b273aaf34ec56ccbfbe25ee2cac1",
+    "content-hash": "90800e038ee8ed7b7d5f3abbf30f2cd8",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1478,16 +1478,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v0.5.4-alpha",
+            "version": "v0.5.5-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "202b0291e2018b0c5da908a5feaf16e9569de930"
+                "reference": "489b5872a86bbaaaac35f251b922a6e120223ca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/202b0291e2018b0c5da908a5feaf16e9569de930",
-                "reference": "202b0291e2018b0c5da908a5feaf16e9569de930",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/489b5872a86bbaaaac35f251b922a6e120223ca7",
+                "reference": "489b5872a86bbaaaac35f251b922a6e120223ca7",
                 "shasum": ""
             },
             "require": {
@@ -1522,7 +1522,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2016-08-16 14:42:46"
+            "time": "2016-08-17 10:08:57"
         },
         {
             "name": "monolog/monolog",
@@ -1878,16 +1878,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.7",
+            "version": "v5.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "a9c4723cbdbc6cf7fbfdfde3c639cb1943f0293a"
+                "reference": "f8ace5c71ee309492b027ef71215577f5a52b4ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/a9c4723cbdbc6cf7fbfdfde3c639cb1943f0293a",
-                "reference": "a9c4723cbdbc6cf7fbfdfde3c639cb1943f0293a",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/f8ace5c71ee309492b027ef71215577f5a52b4ea",
+                "reference": "f8ace5c71ee309492b027ef71215577f5a52b4ea",
                 "shasum": ""
             },
             "require": {
@@ -1926,7 +1926,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-06-23 16:11:33"
+            "time": "2016-08-17 18:16:49"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -2412,16 +2412,16 @@
         },
         {
             "name": "sonata-project/exporter",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/exporter.git",
-                "reference": "48905105792aa2bfbea234b6a9d6a168ff8c19fd"
+                "reference": "3be6e971533bf2cbb24803e2ccb06c6e3046d5d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/48905105792aa2bfbea234b6a9d6a168ff8c19fd",
-                "reference": "48905105792aa2bfbea234b6a9d6a168ff8c19fd",
+                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/3be6e971533bf2cbb24803e2ccb06c6e3046d5d2",
+                "reference": "3be6e971533bf2cbb24803e2ccb06c6e3046d5d2",
                 "shasum": ""
             },
             "require": {
@@ -2477,7 +2477,7 @@
                 "export",
                 "xls"
             ],
-            "time": "2016-08-01 08:13:04"
+            "time": "2016-08-17 08:25:58"
         },
         {
             "name": "swiftmailer/swiftmailer",
