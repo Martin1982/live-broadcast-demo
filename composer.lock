@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "77d5b273aaf34ec56ccbfbe25ee2cac1",
-    "content-hash": "90800e038ee8ed7b7d5f3abbf30f2cd8",
+    "hash": "62a2af6ef2a3fd2adbf045a5cbf1faaf",
+    "content-hash": "307f176c42e16257c89f728420d0ebd2",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -844,12 +844,12 @@
             "version": "5.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
+                "url": "https://github.com/facebook/php-graph-sdk.git",
                 "reference": "7ed1ecdae6a5b2f8b8f60e132d06594b39b16fb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/7ed1ecdae6a5b2f8b8f60e132d06594b39b16fb1",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/7ed1ecdae6a5b2f8b8f60e132d06594b39b16fb1",
                 "reference": "7ed1ecdae6a5b2f8b8f60e132d06594b39b16fb1",
                 "shasum": ""
             },
@@ -894,6 +894,7 @@
                 "facebook",
                 "sdk"
             ],
+            "abandoned": "facebook/graph-sdk",
             "time": "2016-08-09 11:32:26"
         },
         {
@@ -1652,16 +1653,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "3d265f7c079f5b37d33475f996d7a383c5fc8aeb"
+                "reference": "41f85e9c2582b3f6d1b7d20395fb40c687ad5370"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/3d265f7c079f5b37d33475f996d7a383c5fc8aeb",
-                "reference": "3d265f7c079f5b37d33475f996d7a383c5fc8aeb",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/41f85e9c2582b3f6d1b7d20395fb40c687ad5370",
+                "reference": "41f85e9c2582b3f6d1b7d20395fb40c687ad5370",
                 "shasum": ""
             },
             "require": {
@@ -1740,7 +1741,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2016-05-13 01:15:21"
+            "time": "2016-08-18 18:49:14"
         },
         {
             "name": "psr/cache",
