@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "62a2af6ef2a3fd2adbf045a5cbf1faaf",
-    "content-hash": "307f176c42e16257c89f728420d0ebd2",
+    "hash": "3e1246d37fbe27479d3d8df1edf4eda0",
+    "content-hash": "6630a2d0f9bf264be6ac2c050300cfb5",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -840,7 +840,7 @@
             "time": "2016-01-05 21:34:58"
         },
         {
-            "name": "facebook/php-sdk-v4",
+            "name": "facebook/graph-sdk",
             "version": "5.3.1",
             "source": {
                 "type": "git",
@@ -894,7 +894,6 @@
                 "facebook",
                 "sdk"
             ],
-            "abandoned": "facebook/graph-sdk",
             "time": "2016-08-09 11:32:26"
         },
         {
@@ -1479,21 +1478,21 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v0.5.5-alpha",
+            "version": "v0.5.6-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "489b5872a86bbaaaac35f251b922a6e120223ca7"
+                "reference": "e73d4602c483454c7e3ea34d6d9c87750a3f7fe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/489b5872a86bbaaaac35f251b922a6e120223ca7",
-                "reference": "489b5872a86bbaaaac35f251b922a6e120223ca7",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/e73d4602c483454c7e3ea34d6d9c87750a3f7fe1",
+                "reference": "e73d4602c483454c7e3ea34d6d9c87750a3f7fe1",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": "^2.3",
-                "facebook/php-sdk-v4": "^5.2",
+                "facebook/graph-sdk": "^5.3",
                 "google/apiclient": "^2.0",
                 "symfony/console": "^2.8||^3.0",
                 "symfony/framework-bundle": "^2.8||^3.0"
@@ -1523,7 +1522,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2016-08-17 10:08:57"
+            "time": "2016-08-23 14:08:41"
         },
         {
             "name": "monolog/monolog",
