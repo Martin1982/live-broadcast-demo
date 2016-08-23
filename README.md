@@ -28,9 +28,9 @@ Create a Facebook application at https://developers.facebook.com/ with the follo
 Edit the `app/config/config.yml` with the following configuration:
 
     live_broadcast:
-        # Facebook live App
-        live_broadcast_fb_app_id: YourFacebookAppId
-        live_broadcast_fb_app_secret: YourFacebookAppSecret
+        facebook:
+            application_id: YourFacebookAppId
+            application_secret: YourFacebookAppSecret
 
 Add your Facebook app id to the Twig globals in the config:
 
@@ -45,10 +45,10 @@ Create a new 'YouTube Data API v3 Client' at https://console.developers.google.c
 Edit the `app/config/config.yml` with the following configuration:
 
     live_broadcast:
-        # YouTube API
-        live_broadcast_yt_client_id: YourGoogleOauthClientId
-        live_broadcast_yt_client_secret: YourGoogleOauthClientSecret
-        live_broadcast_yt_redirect_route: admin_martin1982_livebroadcast_channel_basechannel_youtubeoauth
+        youtube:
+            client_id: YourGoogleOauthClientId
+            client_secret: YourGoogleOauthClientSecret
+            redirect_route: admin_martin1982_livebroadcast_channel_basechannel_youtubeoauth
 
 The route `admin_martin1982_livebroadcast_channel_basechannel_youtubeoauth` is provided out of the box to set the route for Sonata Admin.
 
