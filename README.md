@@ -31,6 +31,13 @@ Edit the `app/config/config.yml` with the following configuration:
         facebook:
             application_id: YourFacebookAppId
             application_secret: YourFacebookAppSecret
+            
+If you're using Sonata like this demo, add the Sonata block to login to Facebook;
+
+    sonata_block:
+        blocks:
+            sonata.block.service.facebookauth:
+                contexts:   [admin]
     
 ## Enable YouTube live streaming
 
