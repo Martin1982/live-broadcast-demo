@@ -24,7 +24,6 @@ framework:
         engines: ['twig']
     default_locale:  "%locale%"
     trusted_hosts:   ~
-    trusted_proxies: ~
     session:
         # http://symfony.com/doc/current/reference/configuration/framework.html#handler-id
         handler_id:  session.handler.native_file
@@ -43,7 +42,7 @@ doctrine:
     dbal:
        driver:  pdo_sqlite
        user:    test
-       path:    %kernel.root_dir%/sqlite.db.cache
+       path:    "%kernel.root_dir%/sqlite.db.cache"
        #memory: true
        charset: utf8
 
@@ -60,6 +59,11 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+sonata_core:
+    form:
+        mapping:
+            enabled: false
+
 sonata_admin:
     security:
         handler: sonata.admin.security.handler.noop
@@ -73,11 +77,14 @@ sonata_admin:
 sonata_block:
     default_contexts: [cms]
     blocks:
-
         # enable the SonataAdminBundle block
         sonata.admin.block.admin_list:
             contexts:   [admin]
         sonata.admin.block.search_result:
+            contexts:   [admin]
+        sonata.block.service.youtubeauth:
+            contexts:   [admin]
+        sonata.block.service.facebookauth:
             contexts:   [admin]
 
 monolog:
