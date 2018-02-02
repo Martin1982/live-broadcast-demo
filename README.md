@@ -31,12 +31,6 @@ Edit the `app/config/config.yml` with the following configuration:
         facebook:
             application_id: YourFacebookAppId
             application_secret: YourFacebookAppSecret
-
-Add your Facebook app id to the Twig globals in the config:
-
-    twig:
-        globals:
-            live_broadcast_facebook_app_id: 'YourFacebookAppId'
     
 ## Enable YouTube live streaming
 
