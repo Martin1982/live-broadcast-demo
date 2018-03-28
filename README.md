@@ -49,9 +49,9 @@ Edit the `app/config/config.yml` with the following configuration:
         youtube:
             client_id: YourGoogleOauthClientId
             client_secret: YourGoogleOauthClientSecret
-            redirect_route: admin_martin1982_livebroadcast_channel_basechannel_youtubeoauth
+            redirect_route: admin_martin1982_livebroadcast_channel_abstractchannel_youtubeoauth
 
-The route `admin_martin1982_livebroadcast_channel_basechannel_youtubeoauth` is provided out of the box to set the route for Sonata Admin.
+The route `admin_martin1982_livebroadcast_channel_abstractchannel_youtubeoauth` is provided out of the box to set the route for Sonata Admin.
 
 If you're using Sonata like this demo, add the Sonata block to login to Google;
 
