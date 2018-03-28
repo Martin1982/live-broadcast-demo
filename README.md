@@ -12,7 +12,7 @@ To install;
 
 The admin console will now be reachable at; http://localhost:8000/admin
 
-Networks which require additional configuration are described below.
+Channels which require additional configuration are described below.
 
 ## Enable Facebook live
 
