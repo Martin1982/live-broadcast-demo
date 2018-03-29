@@ -1677,16 +1677,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v0.7.1",
+            "version": "v0.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "b9ffcd3ce9d28590d36682c191d4ef1ff8ce536b"
+                "reference": "6474effcfba7cf821e1ca2e57e4ee157a6d4e75f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/b9ffcd3ce9d28590d36682c191d4ef1ff8ce536b",
-                "reference": "b9ffcd3ce9d28590d36682c191d4ef1ff8ce536b",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/6474effcfba7cf821e1ca2e57e4ee157a6d4e75f",
+                "reference": "6474effcfba7cf821e1ca2e57e4ee157a6d4e75f",
                 "shasum": ""
             },
             "require": {
@@ -1696,6 +1696,7 @@
                 "google/apiclient": "^2.2",
                 "google/apiclient-services": "^0.51",
                 "php": ">=7.1",
+                "psr/log": "^1.0",
                 "react/event-loop": "^0.4.3",
                 "symfony/console": "^3.4|^4.0",
                 "symfony/framework-bundle": "^3.4|^4.0",
@@ -1707,6 +1708,7 @@
             "require-dev": {
                 "escapestudios/symfony2-coding-standard": "^3.1",
                 "friendsofphp/php-cs-fixer": "^2.10",
+                "guzzlehttp/guzzle": "^6.3",
                 "php-mock/php-mock-phpunit": "^2.0",
                 "phpunit/phpunit": "^6.4",
                 "squizlabs/php_codesniffer": "^3.2"
@@ -1732,7 +1734,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2018-03-28T09:27:37+00:00"
+            "time": "2018-03-29T08:55:12+00:00"
         },
         {
             "name": "monolog/monolog",
