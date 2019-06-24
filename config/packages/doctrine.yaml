@@ -1,0 +1,13 @@
+doctrine:
+    dbal:
+        driver:  pdo_sqlite
+        user:    test
+        path:    "%kernel.root_dir%/sqlite.db.cache"
+        #memory: true
+        charset: utf8
+        url: '%env(resolve:DATABASE_URL)%'
+
+    orm:
+        auto_generate_proxy_classes: "%kernel.debug%"
+        naming_strategy: doctrine.orm.naming_strategy.underscore
+        auto_mapping: true

@@ -1,0 +1,22 @@
+sonata_admin:
+    security:
+        handler: sonata.admin.security.handler.noop
+    dashboard:
+        groups:
+            Broadcasts:
+                items:
+                    - sonata.admin.livebroadcast
+                    - sonata.admin.channel
+
+sonata_block:
+    default_contexts: [cms]
+    blocks:
+        # enable the SonataAdminBundle block
+        sonata.admin.block.admin_list:
+            contexts:   [admin]
+        sonata.admin.block.search_result:
+            contexts:   [admin]
+        sonata.block.service.youtubeauth:
+            contexts:   [admin]
+        sonata.block.service.facebookauth:
+            contexts:   [admin]
