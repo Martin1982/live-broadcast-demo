@@ -16,3 +16,4 @@
 /web/bundles/
 sqlite.db.cache
 .idea
+composer.phar
