@@ -12,26 +12,23 @@
         "doctrine/doctrine-cache-bundle": "^1.3",
         "doctrine/orm": "^2.6",
         "incenteev/composer-parameter-handler": "^2.1",
-        "martin1982/live-broadcast-bundle": "^0.8",
+        "martin1982/live-broadcast-bundle": "^1.0",
         "sensio/framework-extra-bundle": "^5.1",
         "sonata-project/doctrine-orm-admin-bundle": "^3.4",
+        "symfony/console": "^4.3",
+        "symfony/dotenv": "^4.3",
         "symfony/flex": "^1.2",
+        "symfony/framework-bundle": "^4.3",
         "symfony/monolog-bundle": "^3.2",
         "symfony/polyfill-apcu": "^1.7",
         "symfony/swiftmailer-bundle": "^3.2",
-        "symfony/templating": "4.3.*"
+        "symfony/templating": "^4.3",
+        "symfony/yaml": "^4.3"
     },
     "require-dev": {
-        "symfony/dotenv": "4.3.*",
         "symfony/maker-bundle": "^1.9",
         "symfony/phpunit-bridge": "^4.0",
         "symfony/web-server-bundle": "4.3.*"
-    },
-    "flex-require": {
-        "symfony/console": "*",
-        "symfony/dotenv": "*",
-        "symfony/framework-bundle": "*",
-        "symfony/yaml": "*"
     },
     "config": {
         "preferred-install": {
