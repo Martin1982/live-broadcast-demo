@@ -8,7 +8,7 @@ To install;
 * Clone this repository
 * Run `composer install`
 * Run the Doctrine schema update `bin/console doctrine:schema:update --force`
-* Run `bin/console server:run`
+* Run `symfony server:run` with certificates installed (as this is required by many channel providers) [more info](https://github.com/symfony/cli)
 
 The admin console will now be reachable at; http://localhost:8000/admin
 
@@ -25,7 +25,7 @@ Create a Facebook application at https://developers.facebook.com/ with the follo
 - publish_actions
 - Live-Video API
 
-Edit the `app/config/config.yml` with the following configuration:
+Edit the `config/packages/live_broadcast.yaml` with the following configuration:
 
     live_broadcast:
         facebook:
@@ -43,7 +43,7 @@ If you're using Sonata like this demo, add the Sonata block to login to Facebook
 
 Create a new 'YouTube Data API v3 Client' at https://console.developers.google.com
 
-Edit the `app/config/config.yml` with the following configuration:
+Edit the `config/packages/live_broadcast.yaml` with the following configuration:
 
     live_broadcast:
         youtube:
