@@ -1,0 +1,18 @@
+parameters:
+  broadcast_thumbnail_web_path: "uploads/thumbnails"
+
+live_broadcast:
+  facebook:
+    application_id: '%env(FACEBOOK_APP_ID)%'
+    application_secret: '%env(FACEBOOK_APP_SECRET)%'
+  youtube:
+    client_id: '%env(GOOGLE_CLIENT_ID)%'
+    client_secret: '%env(GOOGLE_CLIENT_SECRET)%'
+    redirect_route: admin_martin1982_livebroadcast_channel_abstractchannel_youtubeoauth
+  ffmpeg:
+    log_directory: "%kernel.logs_dir%"
+  thumbnail:
+    upload_directory: "%kernel.project_dir%/public/%broadcast_thumbnail_web_path%"
+    web_path: "%broadcast_thumbnail_web_path%"
+  event_loop:
+    timer: 5

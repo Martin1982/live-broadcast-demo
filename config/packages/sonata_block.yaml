@@ -1,0 +1,6 @@
+sonata_block:
+  blocks:
+    sonata.block.service.facebookauth:
+      contexts:   [admin]
+    sonata.block.service.youtubeauth:
+      contexts:   [admin]
