@@ -125,6 +125,9 @@
     "ocramius/package-versions": {
         "version": "1.5.1"
     },
+    "php": {
+        "version": "7.3"
+    },
     "phpseclib/phpseclib": {
         "version": "2.0.20"
     },
@@ -506,12 +509,6 @@
         "files": [
             "config/packages/twig_extensions.yaml"
         ]
-    },
-    "twig/extra-bundle": {
-        "version": "v3.0.3"
-    },
-    "twig/intl-extra": {
-        "version": "v3.0.3"
     },
     "twig/twig": {
         "version": "v2.11.3"
