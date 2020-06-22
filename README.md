@@ -8,7 +8,7 @@ To install;
 * Clone this repository
 * Run `composer install`
 * Run the Doctrine schema update `bin/console doctrine:schema:update --force`
-* Run `symfony server:run` with certificates installed (as this is required by many channel providers) [more info](https://github.com/symfony/cli)
+* Run `symfony server:start` with certificates installed (as this is required by many channel providers) [more info](https://github.com/symfony/cli)
 
 The admin console will now be reachable at; http://localhost:8000/admin
 
