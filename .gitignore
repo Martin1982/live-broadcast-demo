@@ -1,6 +1,4 @@
-/app/config/parameters.yml
 /build/
-/phpunit.xml
 /var/*
 !/var/cache
 /var/cache/*
@@ -12,8 +10,6 @@
 /var/sessions/*
 !var/sessions/.gitkeep
 !var/SymfonyRequirements.php
-/vendor/
-/web/bundles/
 sqlite.db.cache
 .idea
 composer.phar
@@ -30,7 +26,3 @@ composer.phar
 .phpunit
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
-
-###> symfony/web-server-bundle ###
-/.web-server-pid
-###< symfony/web-server-bundle ###
