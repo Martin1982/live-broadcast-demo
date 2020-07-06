@@ -2676,16 +2676,16 @@
         },
         {
             "name": "sonata-project/admin-bundle",
-            "version": "3.71.0",
+            "version": "3.71.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "335a175ab63747f87bdb329e9bfc9f70950c107e"
+                "reference": "3e834f877453574e0d79451b4c3d572b42e19306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/335a175ab63747f87bdb329e9bfc9f70950c107e",
-                "reference": "335a175ab63747f87bdb329e9bfc9f70950c107e",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/3e834f877453574e0d79451b4c3d572b42e19306",
+                "reference": "3e834f877453574e0d79451b4c3d572b42e19306",
                 "shasum": ""
             },
             "require": {
@@ -2721,7 +2721,6 @@
                 "symfony/twig-bridge": "^4.3",
                 "symfony/twig-bundle": "^4.3",
                 "symfony/validator": "^4.3",
-                "twig/extra-bundle": "^3.0",
                 "twig/string-extra": "^3.0",
                 "twig/twig": "^2.12.1"
             },
@@ -2748,7 +2747,8 @@
             },
             "suggest": {
                 "jms/translation-bundle": "Extract message keys from Admins",
-                "kunicmarko/sonata-auto-configure-bundle": "Auto configures Admin classes"
+                "kunicmarko/sonata-auto-configure-bundle": "Auto configures Admin classes",
+                "twig/extra-bundle": "Auto configures the Twig Intl extension"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -2784,7 +2784,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2020-06-28T09:56:06+00:00"
+            "time": "2020-06-30T19:14:03+00:00"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -2945,27 +2945,27 @@
         },
         {
             "name": "sonata-project/doctrine-extensions",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/sonata-doctrine-extensions.git",
-                "reference": "9f39109af81561f8175a3bcece454724a8d9e053"
+                "reference": "17d3f56c537afc9208a89ff82219dedea32fb2ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/sonata-doctrine-extensions/zipball/9f39109af81561f8175a3bcece454724a8d9e053",
-                "reference": "9f39109af81561f8175a3bcece454724a8d9e053",
+                "url": "https://api.github.com/repos/sonata-project/sonata-doctrine-extensions/zipball/17d3f56c537afc9208a89ff82219dedea32fb2ca",
+                "reference": "17d3f56c537afc9208a89ff82219dedea32fb2ca",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^2.6",
-                "doctrine/persistence": "^1.3.6",
-                "php": "^7.1"
+                "doctrine/persistence": "^1.3.6 || ^2.0",
+                "php": "^7.2"
             },
             "require-dev": {
-                "doctrine/common": "^2.7",
+                "doctrine/common": "^2.7 || ^3.0",
                 "doctrine/orm": "^2.5",
-                "doctrine/phpcr-odm": "^1.4 || ^2.0",
+                "doctrine/phpcr-odm": "^1.5.2",
                 "jackalope/jackalope-doctrine-dbal": "^1.0",
                 "matthiasnoback/symfony-dependency-injection-test": "^4.0",
                 "symfony/dependency-injection": "^4.4 || ^5.0",
@@ -3011,20 +3011,20 @@
                 "doctrine2",
                 "json"
             ],
-            "time": "2020-03-23T19:39:32+00:00"
+            "time": "2020-07-02T16:36:14+00:00"
         },
         {
             "name": "sonata-project/doctrine-orm-admin-bundle",
-            "version": "3.19.0",
+            "version": "3.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataDoctrineORMAdminBundle.git",
-                "reference": "abe07f24e5506116feaaf0b833ba0e41aac42174"
+                "reference": "0c0ccddce2b8e146a8a8f99c80be166883913e63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/abe07f24e5506116feaaf0b833ba0e41aac42174",
-                "reference": "abe07f24e5506116feaaf0b833ba0e41aac42174",
+                "url": "https://api.github.com/repos/sonata-project/SonataDoctrineORMAdminBundle/zipball/0c0ccddce2b8e146a8a8f99c80be166883913e63",
+                "reference": "0c0ccddce2b8e146a8a8f99c80be166883913e63",
                 "shasum": ""
             },
             "require": {
@@ -3032,7 +3032,7 @@
                 "doctrine/orm": "^2.5",
                 "doctrine/persistence": "^1.3.4",
                 "php": "^7.2",
-                "sonata-project/admin-bundle": "^3.68",
+                "sonata-project/admin-bundle": "^3.71",
                 "sonata-project/exporter": "^1.11.0 || ^2.0",
                 "sonata-project/form-extensions": "^0.1 || ^1.4",
                 "symfony/config": "^4.4",
@@ -3098,7 +3098,7 @@
                 "generator",
                 "sonata"
             ],
-            "time": "2020-06-26T21:35:24+00:00"
+            "time": "2020-06-30T05:49:22+00:00"
         },
         {
             "name": "sonata-project/exporter",
@@ -3251,16 +3251,16 @@
         },
         {
             "name": "sonata-project/twig-extensions",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/twig-extensions.git",
-                "reference": "5d25d56201615544146fa46a90eaa3bacbdc8052"
+                "reference": "617f912bf6db0bd3f3cb2da713dab96f631d2b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/twig-extensions/zipball/5d25d56201615544146fa46a90eaa3bacbdc8052",
-                "reference": "5d25d56201615544146fa46a90eaa3bacbdc8052",
+                "url": "https://api.github.com/repos/sonata-project/twig-extensions/zipball/617f912bf6db0bd3f3cb2da713dab96f631d2b5c",
+                "reference": "617f912bf6db0bd3f3cb2da713dab96f631d2b5c",
                 "shasum": ""
             },
             "require": {
@@ -3319,7 +3319,7 @@
                 "twig",
                 "twig-extensions"
             ],
-            "time": "2020-06-04T06:56:13+00:00"
+            "time": "2020-06-29T16:46:31+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7812,85 +7812,26 @@
             "time": "2020-05-20T08:37:50+00:00"
         },
         {
-            "name": "twig/extra-bundle",
-            "version": "v3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twigphp/twig-extra-bundle.git",
-                "reference": "6eaf1637abe6b68518e7e0949ebb84e55770d5c6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/twig-extra-bundle/zipball/6eaf1637abe6b68518e7e0949ebb84e55770d5c6",
-                "reference": "6eaf1637abe6b68518e7e0949ebb84e55770d5c6",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3",
-                "symfony/framework-bundle": "^4.3|^5.0",
-                "symfony/twig-bundle": "^4.3|^5.0",
-                "twig/twig": "^2.4|^3.0"
-            },
-            "require-dev": {
-                "twig/cssinliner-extra": "^2.12|^3.0",
-                "twig/html-extra": "^2.12|^3.0",
-                "twig/inky-extra": "^2.12|^3.0",
-                "twig/intl-extra": "^2.12|^3.0",
-                "twig/markdown-extra": "^2.12|^3.0"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Twig\\Extra\\TwigExtraBundle\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                }
-            ],
-            "description": "A Symfony bundle for extra Twig extensions",
-            "homepage": "https://twig.symfony.com",
-            "keywords": [
-                "bundle",
-                "extra",
-                "twig"
-            ],
-            "time": "2020-01-01T17:11:09+00:00"
-        },
-        {
             "name": "twig/string-extra",
-            "version": "v3.0.3",
+            "version": "v3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/string-extra.git",
-                "reference": "9905d4410f1214df183fbb1a5e7848c560fdd551"
+                "reference": "8e9b436d25b9473e9dc163c83cff1eb9f5dd68c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/string-extra/zipball/9905d4410f1214df183fbb1a5e7848c560fdd551",
-                "reference": "9905d4410f1214df183fbb1a5e7848c560fdd551",
+                "url": "https://api.github.com/repos/twigphp/string-extra/zipball/8e9b436d25b9473e9dc163c83cff1eb9f5dd68c4",
+                "reference": "8e9b436d25b9473e9dc163c83cff1eb9f5dd68c4",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5",
+                "php": ">=7.2.5",
                 "symfony/string": "^5.0",
                 "twig/twig": "^2.4|^3.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "^4.4|^5.0"
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9"
             },
             "type": "library",
             "extra": {
@@ -7923,35 +7864,57 @@
                 "twig",
                 "unicode"
             ],
-            "time": "2020-02-06T15:26:33+00:00"
+            "funding": [
+                {
+                    "url": "https://certification.symfony.com/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://live.symfony.com/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://symfony.com/cloud/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-21T09:54:27+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v2.12.5",
+            "version": "v2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "18772e0190734944277ee97a02a9a6c6555fcd94"
+                "reference": "46a612ba1bbf6ee1c58acabacd868212ff8a2911"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/18772e0190734944277ee97a02a9a6c6555fcd94",
-                "reference": "18772e0190734944277ee97a02a9a6c6555fcd94",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/46a612ba1bbf6ee1c58acabacd868212ff8a2911",
+                "reference": "46a612ba1bbf6ee1c58acabacd868212ff8a2911",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
+                "php": ">=7.1.3",
                 "symfony/polyfill-ctype": "^1.8",
                 "symfony/polyfill-mbstring": "^1.3"
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/phpunit-bridge": "^4.4|^5.0"
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.12-dev"
+                    "dev-master": "2.13-dev"
                 }
             },
             "autoload": {
@@ -7988,22 +7951,44 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2020-02-11T15:31:23+00:00"
+            "funding": [
+                {
+                    "url": "https://certification.symfony.com/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://live.symfony.com/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://symfony.com/cloud/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-05T13:08:05+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "nikic/php-parser",
-            "version": "v4.5.0",
+            "version": "v4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "53c2753d756f5adb586dca79c2ec0e2654dd9463"
+                "reference": "c346bbfafe2ff60680258b631afb730d186ed864"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/53c2753d756f5adb586dca79c2ec0e2654dd9463",
-                "reference": "53c2753d756f5adb586dca79c2ec0e2654dd9463",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c346bbfafe2ff60680258b631afb730d186ed864",
+                "reference": "c346bbfafe2ff60680258b631afb730d186ed864",
                 "shasum": ""
             },
             "require": {
@@ -8042,7 +8027,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-06-03T07:24:19+00:00"
+            "time": "2020-07-02T17:12:47+00:00"
         },
         {
             "name": "symfony/maker-bundle",
