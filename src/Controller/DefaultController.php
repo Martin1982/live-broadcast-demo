@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use Martin1982\LiveBroadcastBundle\Broadcaster\Scheduler;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

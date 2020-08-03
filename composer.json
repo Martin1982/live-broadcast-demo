@@ -3,30 +3,39 @@
     "type": "project",
     "license": "MIT",
     "description": "Demo for the Live Broadcast Bundle",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "/Users/martinlocal/Documents/code/personal/live-broadcast-easyadmin-bundle"
+        }
+    ],
     "require": {
         "php": ">=7.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "doctrine/doctrine-bundle": "^2.0",
+        "doctrine/doctrine-bundle": "2.1.0",
         "doctrine/orm": "^2.6",
         "incenteev/composer-parameter-handler": "^2.1",
-        "martin1982/live-broadcast-bundle": "^3.1",
+        "martin1982/live-broadcast-easyadmin-bundle": "dev-master",
         "sensio/framework-extra-bundle": "^5.1",
-        "sonata-project/doctrine-orm-admin-bundle": "^3.15",
-        "symfony/console": "^4.4",
-        "symfony/dotenv": "^4.4",
+        "symfony/console": "^5.1",
+        "symfony/dotenv": "^5.1",
         "symfony/flex": "^1.6",
-        "symfony/framework-bundle": "^4.4",
+        "symfony/framework-bundle": "^5.1",
         "symfony/monolog-bundle": "^3.5",
         "symfony/polyfill-apcu": "^1.15",
         "symfony/swiftmailer-bundle": "^3.4",
-        "symfony/templating": "^4.4",
-        "symfony/yaml": "^4.4"
+        "symfony/templating": "^5.1",
+        "symfony/yaml": "^5.1"
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.14",
-        "symfony/phpunit-bridge": "^4.4"
+        "symfony/maker-bundle": "^1.2",
+        "symfony/phpunit-bridge": "^5.1",
+        "symfony/stopwatch": "^5.1",
+        "symfony/twig-bundle": "^5.1",
+        "symfony/web-profiler-bundle": "^5.1"
     },
     "config": {
         "preferred-install": {
@@ -67,7 +76,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": "true",
-            "require": "4.4.*"
+            "require": "5.*"
         }
     }
 }
