@@ -1509,16 +1509,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.141",
+            "version": "v0.142",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "4ba7279b0a56366e4f19b9d1a1b5456f99353b6f"
+                "reference": "3baf0a665cd08975314214b075f28765c97282ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/4ba7279b0a56366e4f19b9d1a1b5456f99353b6f",
-                "reference": "4ba7279b0a56366e4f19b9d1a1b5456f99353b6f",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/3baf0a665cd08975314214b075f28765c97282ae",
+                "reference": "3baf0a665cd08975314214b075f28765c97282ae",
                 "shasum": ""
             },
             "require": {
@@ -1542,7 +1542,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2020-07-27T00:25:27+00:00"
+            "time": "2020-07-28T00:24:58+00:00"
         },
         {
             "name": "google/auth",
@@ -1856,12 +1856,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "c335f782ba377c4f37c286c1d29860496a194242"
+                "reference": "4a594e4a86701f0f76af7255803bf713b0c03857"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/c335f782ba377c4f37c286c1d29860496a194242",
-                "reference": "c335f782ba377c4f37c286c1d29860496a194242",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/4a594e4a86701f0f76af7255803bf713b0c03857",
+                "reference": "4a594e4a86701f0f76af7255803bf713b0c03857",
                 "shasum": ""
             },
             "require": {
@@ -1870,7 +1870,7 @@
                 "ext-fileinfo": "*",
                 "facebook/graph-sdk": "^5.7",
                 "google/apiclient": "^2.4",
-                "google/apiclient-services": "^0.141",
+                "google/apiclient-services": "^0.142",
                 "php": ">=7.2",
                 "psr/log": "^1.1",
                 "react/event-loop": "^1.1",
@@ -1913,7 +1913,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2020-07-29T10:02:43+00:00"
+            "time": "2020-08-03T07:41:50+00:00"
         },
         {
             "name": "martin1982/live-broadcast-easyadmin-bundle",
