@@ -116,6 +116,9 @@
     "martin1982/live-broadcast-bundle": {
         "version": "dev-master"
     },
+    "martin1982/live-broadcast-sonata-admin-bundle": {
+        "version": "v1.0.0"
+    },
     "monolog/monolog": {
         "version": "1.24.0"
     },
