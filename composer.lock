@@ -979,16 +979,16 @@
         },
         {
             "name": "doctrine/persistence",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0"
+                "reference": "7a6eac9fb6f61bba91328f15aa7547f4806ca288"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0",
-                "reference": "0af483f91bada1c9ded6c2cfd26ab7d5ab2094e0",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/7a6eac9fb6f61bba91328f15aa7547f4806ca288",
+                "reference": "7a6eac9fb6f61bba91328f15aa7547f4806ca288",
                 "shasum": ""
             },
             "require": {
@@ -997,7 +997,7 @@
                 "doctrine/collections": "^1.0",
                 "doctrine/event-manager": "^1.0",
                 "doctrine/reflection": "^1.2",
-                "php": "^7.1"
+                "php": "^7.1 || ^8.0"
             },
             "conflict": {
                 "doctrine/common": "<2.10@dev"
@@ -1005,7 +1005,8 @@
             "require-dev": {
                 "doctrine/coding-standard": "^6.0",
                 "phpstan/phpstan": "^0.11",
-                "phpunit/phpunit": "^7.0"
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "vimeo/psalm": "^3.11"
             },
             "type": "library",
             "extra": {
@@ -1072,7 +1073,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-21T15:13:52+00:00"
+            "time": "2020-06-20T12:56:16+00:00"
         },
         {
             "name": "doctrine/reflection",
@@ -2049,16 +2050,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "3f8f89ed8ef0df1b6d2a70e4de1f13164c3df0c3"
+                "reference": "e1085d199e9562a7f45a58046c8a871e6a313bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/3f8f89ed8ef0df1b6d2a70e4de1f13164c3df0c3",
-                "reference": "3f8f89ed8ef0df1b6d2a70e4de1f13164c3df0c3",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/e1085d199e9562a7f45a58046c8a871e6a313bd6",
+                "reference": "e1085d199e9562a7f45a58046c8a871e6a313bd6",
                 "shasum": ""
             },
             "require": {
@@ -2109,7 +2110,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2020-08-04T06:56:31+00:00"
+            "time": "2020-08-05T08:08:11+00:00"
         },
         {
             "name": "martin1982/live-broadcast-sonata-admin-bundle",
