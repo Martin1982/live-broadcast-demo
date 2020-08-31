@@ -15,7 +15,7 @@
         "php": ">=7.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "doctrine/doctrine-bundle": "2.1.0",
+        "doctrine/doctrine-bundle": "^2.1",
         "doctrine/orm": "^2.6",
         "incenteev/composer-parameter-handler": "^2.1",
         "martin1982/live-broadcast-easyadmin-bundle": "dev-master",

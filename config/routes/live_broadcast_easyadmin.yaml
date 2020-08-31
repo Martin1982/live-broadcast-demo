@@ -1,3 +1,3 @@
 live_broadcast_easyadmin:
-  resource: '@LiveBroadcastEasyadminBundle/Controller/Admin/DashboardController.php'
+  resource: '@LiveBroadcastEasyadminBundle/Controller/'
   type: annotation
