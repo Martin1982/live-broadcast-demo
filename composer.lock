@@ -1438,16 +1438,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.144",
+            "version": "v0.146",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "74c5fc850d9ce441c6b3e52af11b986cd11d379a"
+                "reference": "029e20e81508cee6dc652529514eeeb1cf56ce54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/74c5fc850d9ce441c6b3e52af11b986cd11d379a",
-                "reference": "74c5fc850d9ce441c6b3e52af11b986cd11d379a",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/029e20e81508cee6dc652529514eeeb1cf56ce54",
+                "reference": "029e20e81508cee6dc652529514eeeb1cf56ce54",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2020-08-30T00:24:57+00:00"
+            "time": "2020-09-12T00:24:59+00:00"
         },
         {
             "name": "google/auth",
@@ -2054,16 +2054,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v4.0.3",
+            "version": "v4.04",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "de5827783a3050547f60ceccef8fca08c8080563"
+                "reference": "ca8418d228bce1aa82533088add19ddc3922d717"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/de5827783a3050547f60ceccef8fca08c8080563",
-                "reference": "de5827783a3050547f60ceccef8fca08c8080563",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/ca8418d228bce1aa82533088add19ddc3922d717",
+                "reference": "ca8418d228bce1aa82533088add19ddc3922d717",
                 "shasum": ""
             },
             "require": {
@@ -2072,7 +2072,7 @@
                 "ext-fileinfo": "*",
                 "facebook/graph-sdk": "^5.7",
                 "google/apiclient": "^2.4",
-                "google/apiclient-services": "^0.144",
+                "google/apiclient-services": "^0.146",
                 "php": ">=7.2",
                 "psr/log": "^1.1",
                 "react/event-loop": "^1.1",
@@ -2115,7 +2115,7 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2020-08-31T07:13:31+00:00"
+            "time": "2020-09-14T08:24:11+00:00"
         },
         {
             "name": "martin1982/live-broadcast-sonata-admin-bundle",
