@@ -1485,16 +1485,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.149",
+            "version": "v0.150",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "6a44aa8dc22b181594ba93c2ffb5d731c318c810"
+                "reference": "765bfb40c7a00e8fd891ff1969bade6e3c0889fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/6a44aa8dc22b181594ba93c2ffb5d731c318c810",
-                "reference": "6a44aa8dc22b181594ba93c2ffb5d731c318c810",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/765bfb40c7a00e8fd891ff1969bade6e3c0889fc",
+                "reference": "765bfb40c7a00e8fd891ff1969bade6e3c0889fc",
                 "shasum": ""
             },
             "require": {
@@ -1518,7 +1518,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2020-10-05T00:26:25+00:00"
+            "time": "2020-10-11T00:26:14+00:00"
         },
         {
             "name": "google/auth",
@@ -2118,16 +2118,16 @@
         },
         {
             "name": "martin1982/live-broadcast-bundle",
-            "version": "v4.0.7",
+            "version": "v4.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-bundle.git",
-                "reference": "7f2719bd2a30cc2f35e7a9e364788dab61867431"
+                "reference": "c54bd9fcbbd380c20a4048e518e83b95600f4878"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/7f2719bd2a30cc2f35e7a9e364788dab61867431",
-                "reference": "7f2719bd2a30cc2f35e7a9e364788dab61867431",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-bundle/zipball/c54bd9fcbbd380c20a4048e518e83b95600f4878",
+                "reference": "c54bd9fcbbd380c20a4048e518e83b95600f4878",
                 "shasum": ""
             },
             "require": {
@@ -2135,8 +2135,8 @@
                 "doctrine/orm": "^2.7",
                 "ext-fileinfo": "*",
                 "facebook/graph-sdk": "^5.7",
-                "google/apiclient": "^2.4",
-                "google/apiclient-services": "^0.149",
+                "google/apiclient": "^2.7",
+                "google/apiclient-services": "~0.140",
                 "php": ">=7.2",
                 "psr/log": "^1.1",
                 "react/event-loop": "^1.1",
@@ -2179,20 +2179,20 @@
                 }
             ],
             "description": "Bundle for live-streaming to various online networks",
-            "time": "2020-10-05T07:35:24+00:00"
+            "time": "2020-10-12T07:51:06+00:00"
         },
         {
             "name": "martin1982/live-broadcast-sonata-admin-bundle",
-            "version": "v1.0.1",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-sonata-admin-bundle.git",
-                "reference": "0367694f63e3b9246b5948133d1b6d2fbd1e1031"
+                "reference": "ac0e70d6fe30d5270782fe9ed817d4ca5f5efe6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-sonata-admin-bundle/zipball/0367694f63e3b9246b5948133d1b6d2fbd1e1031",
-                "reference": "0367694f63e3b9246b5948133d1b6d2fbd1e1031",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-sonata-admin-bundle/zipball/ac0e70d6fe30d5270782fe9ed817d4ca5f5efe6d",
+                "reference": "ac0e70d6fe30d5270782fe9ed817d4ca5f5efe6d",
                 "shasum": ""
             },
             "require": {
@@ -2229,7 +2229,7 @@
                 }
             ],
             "description": "Sonata plugin for the live broadcast bundle",
-            "time": "2020-08-04T10:14:09+00:00"
+            "time": "2020-10-12T09:59:07+00:00"
         },
         {
             "name": "monolog/monolog",
