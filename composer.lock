@@ -2182,22 +2182,23 @@
         },
         {
             "name": "martin1982/live-broadcast-sonata-admin-bundle",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Martin1982/live-broadcast-sonata-admin-bundle.git",
-                "reference": "ac0e70d6fe30d5270782fe9ed817d4ca5f5efe6d"
+                "reference": "3f3afe4175c6e744954ce9710482582a877ed4b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Martin1982/live-broadcast-sonata-admin-bundle/zipball/ac0e70d6fe30d5270782fe9ed817d4ca5f5efe6d",
-                "reference": "ac0e70d6fe30d5270782fe9ed817d4ca5f5efe6d",
+                "url": "https://api.github.com/repos/Martin1982/live-broadcast-sonata-admin-bundle/zipball/3f3afe4175c6e744954ce9710482582a877ed4b0",
+                "reference": "3f3afe4175c6e744954ce9710482582a877ed4b0",
                 "shasum": ""
             },
             "require": {
                 "ext-fileinfo": "*",
                 "martin1982/live-broadcast-bundle": "^4.0",
                 "php": ">=7.2",
+                "sonata-project/admin-bundle": "~3.76.0",
                 "sonata-project/doctrine-orm-admin-bundle": "^3.21",
                 "symfony/framework-bundle": "^4.4|^5.0"
             },
@@ -2228,7 +2229,7 @@
                 }
             ],
             "description": "Sonata plugin for the live broadcast bundle",
-            "time": "2020-10-12T09:59:07+00:00"
+            "time": "2020-10-20T07:05:06+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2827,16 +2828,16 @@
         },
         {
             "name": "sonata-project/admin-bundle",
-            "version": "3.77.0",
+            "version": "3.76.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "a70186f2ec95c729cea8f21bb3a7e6a7ea44991f"
+                "reference": "c39000a48cd46fd35a826b4f4361b6b0ae542837"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/a70186f2ec95c729cea8f21bb3a7e6a7ea44991f",
-                "reference": "a70186f2ec95c729cea8f21bb3a7e6a7ea44991f",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/c39000a48cd46fd35a826b4f4361b6b0ae542837",
+                "reference": "c39000a48cd46fd35a826b4f4361b6b0ae542837",
                 "shasum": ""
             },
             "require": {
@@ -2898,7 +2899,7 @@
                 "symfony/css-selector": "^4.4 || ^5.1",
                 "symfony/filesystem": "^4.4 || ^5.1",
                 "symfony/maker-bundle": "^1.17",
-                "symfony/phpunit-bridge": "^5.1.4",
+                "symfony/phpunit-bridge": "^5.1.1",
                 "symfony/yaml": "^4.4 || ^5.1",
                 "vimeo/psalm": "^3.13.1"
             },
@@ -2943,21 +2944,7 @@
                 "sonata",
                 "symfony"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/OskarStark",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/VincentLanglet",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/core23",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-10-17T15:52:15+00:00"
+            "time": "2020-09-20T13:01:23+00:00"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -3133,16 +3120,16 @@
         },
         {
             "name": "sonata-project/doctrine-extensions",
-            "version": "1.9.1",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/sonata-doctrine-extensions.git",
-                "reference": "935869d748b77241ee0a4614a8f44c5da1bb0830"
+                "reference": "841ece2b2ad118eb2218b515c9847150a378e585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/sonata-doctrine-extensions/zipball/935869d748b77241ee0a4614a8f44c5da1bb0830",
-                "reference": "935869d748b77241ee0a4614a8f44c5da1bb0830",
+                "url": "https://api.github.com/repos/sonata-project/sonata-doctrine-extensions/zipball/841ece2b2ad118eb2218b515c9847150a378e585",
+                "reference": "841ece2b2ad118eb2218b515c9847150a378e585",
                 "shasum": ""
             },
             "require": {
@@ -3150,17 +3137,24 @@
                 "doctrine/persistence": "^1.3.6 || ^2.0",
                 "php": "^7.2"
             },
+            "conflict": {
+                "doctrine/doctrine-bundle": "<2.0",
+                "doctrine/mongodb-odm": "<2.0",
+                "doctrine/orm": "<2.5",
+                "doctrine/phpcr-odm": "<1.5.2"
+            },
             "require-dev": {
                 "doctrine/common": "^2.7 || ^3.0",
                 "doctrine/doctrine-bundle": "^2.0",
+                "doctrine/mongodb-odm": "^2.0",
                 "doctrine/orm": "^2.5",
                 "doctrine/phpcr-odm": "^1.5.2",
                 "jackalope/jackalope-doctrine-dbal": "^1.0",
                 "matthiasnoback/symfony-dependency-injection-test": "^4.0",
-                "symfony/dependency-injection": "^4.4 || ^5.0",
-                "symfony/expression-language": "^4.4 || ^5.0",
-                "symfony/framework-bundle": "^4.4 || ^5.0",
-                "symfony/phpunit-bridge": "^5.0"
+                "symfony/dependency-injection": "^4.4 || ^5.1",
+                "symfony/expression-language": "^4.4 || ^5.1",
+                "symfony/framework-bundle": "^4.4 || ^5.1",
+                "symfony/phpunit-bridge": "^5.1.1"
             },
             "suggest": {
                 "doctrine/orm": "If you use doctrine orm",
@@ -3201,7 +3195,21 @@
                 "doctrine2",
                 "json"
             ],
-            "time": "2020-08-09T21:39:55+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/OskarStark",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/VincentLanglet",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/core23",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-19T12:36:15+00:00"
         },
         {
             "name": "sonata-project/doctrine-orm-admin-bundle",
