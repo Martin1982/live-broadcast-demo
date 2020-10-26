@@ -17,4 +17,5 @@ return [
     Sonata\Doctrine\Bridge\Symfony\Bundle\SonataDoctrineBundle::class => ['all' => true],
     Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle::class => ['all' => true],
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
+    Martin1982\LiveBroadcastSonataAdminBundle\LiveBroadcastSonataAdminBundle::class => ['all' => true],
 ];

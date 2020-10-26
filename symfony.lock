@@ -116,6 +116,9 @@
     "martin1982/live-broadcast-bundle": {
         "version": "dev-master"
     },
+    "martin1982/live-broadcast-sonata-admin-bundle": {
+        "version": "dev-master"
+    },
     "monolog/monolog": {
         "version": "1.24.0"
     },
@@ -151,6 +154,9 @@
     },
     "react/event-loop": {
         "version": "v1.1.0"
+    },
+    "roave/security-advisories": {
+        "version": "dev-master"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
