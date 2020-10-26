@@ -31,6 +31,7 @@
         "symfony/yaml": "^5.1"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "symfony/maker-bundle": "^1.2",
         "symfony/phpunit-bridge": "^5.1",
         "symfony/stopwatch": "^5.1",
