@@ -155,6 +155,9 @@
     "react/event-loop": {
         "version": "v1.1.0"
     },
+    "roave/security-advisories": {
+        "version": "dev-master"
+    },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
         "recipe": {

@@ -2,6 +2,17 @@ sonata_admin:
     security:
         handler: sonata.admin.security.handler.noop
     dashboard:
+        blocks:
+            -
+                position: top
+                class: col-md-6
+                type: sonata.admin.block.admin_list
+            -
+                position: bottom
+                class: col-md-6
+                type: sonata.block.service.text
+                settings:
+                    content: <div class="text-center"><a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy">Privacy Policy</a></div>
         groups:
             Broadcasts:
                 items:
