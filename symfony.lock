@@ -113,6 +113,9 @@
     "knplabs/knp-menu-bundle": {
         "version": "2.2.2"
     },
+    "martin1982/facebook-graph-sdk": {
+        "version": "7.0.0"
+    },
     "martin1982/live-broadcast-bundle": {
         "version": "dev-master"
     },
@@ -128,11 +131,17 @@
     "ocramius/package-versions": {
         "version": "1.5.1"
     },
+    "paragonie/constant_time_encoding": {
+        "version": "v2.4.0"
+    },
     "php": {
         "version": "7.3"
     },
     "phpseclib/phpseclib": {
         "version": "2.0.20"
+    },
+    "phpstan/phpdoc-parser": {
+        "version": "0.4.10"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -205,6 +214,9 @@
     "swiftmailer/swiftmailer": {
         "version": "v6.2.1"
     },
+    "symfony/amqp-messenger": {
+        "version": "v5.2.3"
+    },
     "symfony/asset": {
         "version": "v4.3.1"
     },
@@ -238,6 +250,9 @@
     },
     "symfony/doctrine-bridge": {
         "version": "v4.3.1"
+    },
+    "symfony/doctrine-messenger": {
+        "version": "v5.2.3"
     },
     "symfony/dotenv": {
         "version": "v4.3.1"
@@ -301,9 +316,6 @@
         "version": "v4.3.1"
     },
     "symfony/http-kernel": {
-        "version": "v4.3.1"
-    },
-    "symfony/inflector": {
         "version": "v4.3.1"
     },
     "symfony/intl": {
@@ -395,6 +407,12 @@
     },
     "symfony/property-access": {
         "version": "v4.3.1"
+    },
+    "symfony/property-info": {
+        "version": "v5.2.3"
+    },
+    "symfony/redis-messenger": {
+        "version": "v5.2.3"
     },
     "symfony/routing": {
         "version": "4.2",
