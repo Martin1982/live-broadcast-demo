@@ -1,0 +1,7 @@
+version: '3'
+services:
+  php:
+    image: composer
+    volumes:
+      - .:/app
+    command: tail -f /dev/null
