@@ -1,0 +1,9 @@
+version: '3'
+services:
+  php:
+    build: docker
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+    command: symfony server:start

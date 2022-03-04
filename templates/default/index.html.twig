@@ -9,8 +9,11 @@
 
             <div id="status">
                 <p>
-                    <a href="/admin">
-                        Admin
+                    <a href="{{ path('sonata_admin_redirect') }}">
+                        Sonata Admin
+                    </a><br />
+                    <a href="{{ path('admin') }}">
+                        EasyAdmin
                     </a><br />
 
                     <a href="?schedule=1">

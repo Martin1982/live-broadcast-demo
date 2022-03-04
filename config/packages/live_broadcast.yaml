@@ -12,7 +12,7 @@ live_broadcast:
   ffmpeg:
     log_directory: "%kernel.logs_dir%"
   thumbnail:
-    upload_directory: "%kernel.project_dir%/public/%broadcast_thumbnail_web_path%"
+    upload_directory: "public/%broadcast_thumbnail_web_path%"
     web_path: "%broadcast_thumbnail_web_path%"
   event_loop:
     timer: 5

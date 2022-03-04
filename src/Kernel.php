@@ -20,7 +20,7 @@ class Kernel extends BaseKernel
     /**
      * @return Generator|iterable|BundleInterface[]
      */
-    public function registerBundles()
+    public function registerBundles(): iterable
     {
         $contents = require $this->getProjectDir().'/config/bundles.php';
         foreach ($contents as $class => $envs) {

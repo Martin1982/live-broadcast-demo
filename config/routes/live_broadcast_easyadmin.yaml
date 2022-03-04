@@ -1,3 +1,4 @@
 live_broadcast_easyadmin:
   resource: '@LiveBroadcastEasyadminBundle/Controller/'
   type: annotation
+  prefix: '/easyadmin'
